@@ -1,0 +1,143 @@
+.nav {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: fit-content;
+    background-color: #222;
+}
+
+.nav-container {
+    margin: 0 auto;
+    padding: 0.5em 0;
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container.mobile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 1;
+}
+
+.menu {
+    width: 100%;
+    min-height: 4em;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu.mobile {
+    width: 100%;
+    min-height: 4em;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-button {
+    display: block;
+    color: white;
+}
+
+.menu-item {
+    height: 100%;
+    padding: 1em 3em;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.menu-seperator {
+    color: white;
+}
+
+.menu-item.mobile {
+    width: 100%;
+    padding: 1.5em 0;
+}
+
+.menu-item.mobile.light {
+    border-top: 1px solid white;
+}
+
+.menu-item.mobile.dark {
+    border-top: 1px solid white;
+}
+
+.dropdown {
+    display: block;
+    height: 100%;
+    position: relative;
+}
+
+.dropdown-main {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-items {
+    display: none;
+    position: absolute;
+    justify-content: center;
+}
+
+.dropdown-item {
+    padding: 1em 1em;
+    display: block;
+    width: 100%;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: white;
+}
+
+.dropdown-item.light:hover {
+    background-color:lightgrey;
+}
+.dropdown-item.dark:hover {
+    background-color:slategray;
+}
+
+.dropdown:hover .dropdown-items {display: block; z-index: 1;}
+
+.dropdown svg {margin: 0 0 0 0.2em}
+.dropdown:hover svg {color: #0384fc}
+
+@media only screen and (max-width: 1000px) {
+    .nav-container {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .nav-bar {
+        width: 90%;
+        display: flex;
+        justify-content: right;
+        align-items: end;
+        flex-shrink: 1;
+    }
+}

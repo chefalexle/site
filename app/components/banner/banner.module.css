@@ -1,0 +1,28 @@
+.banner {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image {
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.bottom-obj-pos {
+    object-position: bottom;
+}

@@ -1,0 +1,18 @@
+.sidebar {
+    padding: 1em;
+}
+
+.link-container {
+    margin: 0.5em;
+}
+
+.link-container a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: #127fc3;
+}
+
+.link-container a:hover {
+    color: #2fb6fa;
+}

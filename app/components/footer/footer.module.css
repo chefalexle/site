@@ -1,0 +1,241 @@
+.footer-container {
+    padding: 5em 0 0 0;
+    background-color: #222;
+}
+
+.contact-container {
+    width: 100%;
+    margin: 0 0 8em 0;
+}
+
+.contact {
+    margin: 0 auto;
+    width: 40%;
+    display: flex;
+}
+
+.contact-left {
+    margin: 0 2.5em 0 0;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    height: min-content;
+}
+
+.contact-left h1 {
+    margin: 0 0.4em 0;
+    color: white;
+    width: max-content;
+}
+
+.contact-right {
+    text-align: left;
+}
+
+.contact-right h3 {
+    color: white;
+    margin: 0.5em 0;
+    width: max-content;
+}
+
+.socials-container {
+    margin: 2em 0;
+    display: flex;
+}
+
+.social {
+    background-color: white;
+    padding: 0.8em;
+}
+
+.svg {
+    width: 60px;
+    height: 60px;
+    color: #222;
+}
+
+.insta:hover {
+    background-image: url(/images/insta.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    cursor: pointer;
+}
+
+.x {
+    margin: 0 1.5em;
+}
+
+.x:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+    background-color: #017bb6;
+    color: white;
+    cursor: pointer;
+}
+
+.insta:hover .svg,
+.x:hover .svg,
+.linkedin:hover .svg {
+    color: white;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* footer menu */
+.footer-menu.mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo {
+    margin: 0 1em;
+}
+
+.menu-container {
+    display: flex;
+}
+
+.menu-container h3 {
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.contact {
+    text-align: right;
+}
+
+.contact-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mid {
+    margin: 1em 0;
+}
+
+.mid-hour {
+    margin: 0.5em 0;
+}
+
+.hours {
+    display: flex;
+    flex-direction: column;
+}
+
+.hours-list div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu-col {
+    margin: 0 0.5em;
+    width: 300px;
+    font-size: 0.9em;
+}
+
+.footer-menu-col h3 {
+    margin: 0 0 0.3em 0;
+}
+
+.footer-category {
+    margin: 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link {
+    margin: 0.2em 0;
+    text-decoration: none;
+}
+
+/* footer info */
+.footer-info {
+    padding: 1.5em 1em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+.footer-info.mobile {
+    padding: 0.5em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright.mobile {
+    max-width: 50%;
+    padding: 0.25em;
+}
+
+
+.info-menu {
+    display: flex;
+}
+
+.info-menu.mobile {
+    flex-direction: column;
+}
+
+.info-link.mobile {
+    padding: 0.25em;
+}
+
+.info-link:hover {
+    text-decoration: underline;
+    text-decoration-color: #8fb352;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 6px;
+}
+
+.menu-seperator {
+    margin: 0 0.5em;
+}
+
+.socials {
+    margin: 0.5em 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socials svg:hover {
+    color: #0361a6;
+    color: #127fc3;
+}
+
+@media only screen and (max-width: 800px) {
+    .menu-container {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        order: -1;
+    }
+
+    .contact {
+        text-align: left;
+    }
+
+    .footer-menu-col {
+        margin: 1em 0;
+    }
+
+    .contact {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-left {
+        margin: 0 2.5em 0 0;
+    }
+}

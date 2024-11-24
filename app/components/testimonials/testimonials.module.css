@@ -1,0 +1,35 @@
+.testimonials {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-auto-rows: auto;
+    grid-template-columns: minmax(200px, 1fr) minmax(200px, 1fr);
+    column-gap: 1em;
+    row-gap: 1.5em;
+}
+
+.testimonial {
+    box-sizing: border-box;
+}
+
+.rating {
+    color: gold;
+    font-size: 1.2em;
+}
+
+.text p {
+    margin: 0.5em 0;
+    font-style: italic;
+}
+
+.name {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1000px) {
+    .testimonials {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+}
