@@ -15,7 +15,7 @@ export default function Page() {
     return (
         <>
             <section className={`${styles['banner-section']}`}>
-                <Banner url='/images/internship/dining.jpg' alt='Lyon, France'>
+                <Banner url='/site/images/internship/dining.jpg' alt='Lyon, France'>
                     <div className={`banner-container`}>
                         <div className={`title`}>
                             <h1>Internship</h1>
@@ -73,42 +73,42 @@ export default function Page() {
 const internData = [
     {
         id:'alo',
-        imageURL: '/images/internship/locations/alo.jpg',
+        imageURL: '/site/images/internship/locations/alo.jpg',
         alt: 'alo',
         title: 'Alo',
         loc: 'Toronto, ON'
     },
     {
         id:'ritz',
-        imageURL: '/images/internship/locations/ritz.webp',
+        imageURL: '/site/images/internship/locations/ritz.webp',
         alt: 'ritz',
         title: 'The Ritz-Carlton',
         loc: 'Toronto, ON'
     },
     {
         id:'yokai',
-        imageURL: '/images/internship/locations/yokai.png',
+        imageURL: '/site/images/internship/locations/yokai.png',
         alt: 'yokai',
         title: 'Yokai Izakaya',
         loc: 'Woodbridge, ON'
     },
     {
         id:'edulis',
-        imageURL: '/images/internship/locations/edulis.jpg',
+        imageURL: '/site/images/internship/locations/edulis.jpg',
         alt: 'edulis',
         title: 'Edulis',
         loc: 'Toronto, ON'
     },
     {
         id:'scadda',
-        imageURL: '/images/internship/locations/scadda.jpg',
+        imageURL: '/site/images/internship/locations/scadda.jpg',
         alt: 'scadda',
         title: 'Scaddabush',
         loc: 'Mississauga, ON'
     },
     {
         id:'royal',
-        imageURL: '/images/internship/locations/royal.jpg',
+        imageURL: '/site/images/internship/locations/royal.jpg',
         alt: 'royal',
         title: 'Fairmont Royal York',
         loc: 'Toronto, ON'

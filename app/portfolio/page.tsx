@@ -15,7 +15,7 @@ export default function Page() {
     return (
         <>
             <section className={`${styles['banner-section']}`}>
-                <Banner url='/images/portfolio/tray.jpg' alt='Lyon, France'>
+                <Banner url='/site/images/portfolio/tray.jpg' alt='Lyon, France'>
                     <div className={`banner-container`}>
                         <div className={`title`}>
                             <h1>Portfolio</h1>
@@ -49,7 +49,7 @@ export default function Page() {
             </section>
 
             <section className={`${styles['abroad-banner-section']}`}>
-                <Banner url='/images/portfolio/portfolio.jpg' alt='Lyon, France'>
+                <Banner url='/site/images/portfolio/portfolio.jpg' alt='Lyon, France'>
                     <div className={`banner-container`}>
                         <div className={`title`}>
                             <h1>Italy & France Study Abroad</h1>
@@ -74,7 +74,7 @@ export default function Page() {
 const galleryData = [
     {
         id:'salmon',
-        imageURL: '/images/portfolio/creations/encroute.jpg',
+        imageURL: '/site/images/portfolio/creations/encroute.jpg',
         alt: 'Salmon en croute',
         title: 'Salmon en Cro\xFBte',
         info: 'Russian salad, snap pea coulis',
@@ -82,7 +82,7 @@ const galleryData = [
     },
     {
         id:'beets',
-        imageURL: '/images/portfolio/creations/beets.jpg',
+        imageURL: '/site/images/portfolio/creations/beets.jpg',
         alt: 'Golden Beet Carpaccio',
         title: 'Golden Beet Carpaccio',
         info: 'Sherry vinaigrette, roasted pecans, goat cheese',
@@ -90,7 +90,7 @@ const galleryData = [
     },
     {
         id:'mullet',
-        imageURL: '/images/portfolio/creations/mullet.jpg',
+        imageURL: '/site/images/portfolio/creations/mullet.jpg',
         alt: 'Red Mullet with Potato Scales',
         title: 'Seared Red Mullet',
         info: 'Potato scales, orange rosemary sauce, veal jus',
@@ -98,7 +98,7 @@ const galleryData = [
     },
     {
         id:'truffle',
-        imageURL: '/images/portfolio/creations/truffle.jpg',
+        imageURL: '/site/images/portfolio/creations/truffle.jpg',
         alt: 'Truffle Linguine',
         title: 'Truffle Linguine',
         info: 'Cremini mushrooms, parmigiano reggiano',
@@ -106,7 +106,7 @@ const galleryData = [
     },
     {
         id:'mussels',
-        imageURL: '/images/portfolio/creations/mussel.jpg',
+        imageURL: '/site/images/portfolio/creations/mussel.jpg',
         alt: 'mussels',
         title: 'Steamed Mussels',
         info: 'Fennel pernod broth, vegetable julienne, dill',
@@ -114,7 +114,7 @@ const galleryData = [
     },
     {
         id:'wonton',
-        imageURL: '/images/portfolio/creations/wonton.jpg',
+        imageURL: '/site/images/portfolio/creations/wonton.jpg',
         alt: 'wonton',
         title: 'Wonton Noodle Soup',
         info: 'Egg noodle, shiitake mushroom, bok choy',
@@ -125,7 +125,7 @@ const galleryData = [
 const abroadData = [
     {
         id:'seabass',
-        imageURL: '/images/portfolio/abroad/seabass.jpg',
+        imageURL: '/site/images/portfolio/abroad/seabass.jpg',
         alt: 'Roasted seabass',
         title: 'Roasted Sea Bass',
         info: 'Pomme pur\xE9e, cherry tomato',
@@ -133,7 +133,7 @@ const abroadData = [
     },
     {
         id:'mozz',
-        imageURL: '/images/portfolio/abroad/mozz.jpg',
+        imageURL: '/site/images/portfolio/abroad/mozz.jpg',
         alt: 'Tomato Mozzarella',
         title: 'Cherry Tomato Buffalo Mozzarella',
         info: 'Fried basil, toasted breadcrumb',
@@ -141,28 +141,28 @@ const abroadData = [
     },
     {
         id:'Parm',
-        imageURL: '/images/portfolio/abroad/parma.jpg',
+        imageURL: '/site/images/portfolio/abroad/parma.jpg',
         alt: 'Parm Factory',
         title: 'Parmigiano Reggiano Facility',
         loc: 'Parma, IT'
     },
     {
         id:'ham',
-        imageURL: '/images/portfolio/abroad/ham.jpg',
+        imageURL: '/site/images/portfolio/abroad/ham.jpg',
         alt: 'Parma Ham Facility',
         title: 'Parma Ham Facility',
         loc: 'Parma, IT'
     },
     {
         id:'banfi',
-        imageURL: '/images/portfolio/abroad/banfi.jpg',
+        imageURL: '/site/images/portfolio/abroad/banfi.jpg',
         alt: 'banfi',
         title: 'Castello Banfi Winery',
         loc: 'Montalcino, IT'
     },
     {
         id:'balsamic',
-        imageURL: '/images/portfolio/abroad/balsamic.jpg',
+        imageURL: '/site/images/portfolio/abroad/balsamic.jpg',
         alt: 'balsamic',
         title: 'Balsamic Vinegar of Modena',
         info: 'Aged 25 years',
@@ -170,14 +170,14 @@ const abroadData = [
     },
     {
         id:'cathedral',
-        imageURL: '/images/portfolio/abroad/florence.jpg',
+        imageURL: '/site/images/portfolio/abroad/florence.jpg',
         alt: 'Florence Cathedral',
         title: 'Florence Cathedral',
         loc: 'Florence, IT'
     },
     {
         id:'fountain',
-        imageURL: '/images/portfolio/abroad/fountain.jpg',
+        imageURL: '/site/images/portfolio/abroad/fountain.jpg',
         alt: 'Trevi Fountain',
         title: 'Trevi Fountain',
         loc: 'Rome, IT'

@@ -20,7 +20,7 @@ export default function Page() {
     return (
         <>
             <section className={`${styles['banner-section']}`}>
-                <Banner url='/images/home/terrace.jpg' alt='Adventure Bay Cottages'>
+                <Banner url='/site/images/home/terrace.jpg' alt='Dining room at my workplace Terrace on the Green'>
                     <div className={`${styles['banner-container']}`}>
                         <div className={`${styles['portrait-container']} next-img-container shadow`}>
                             <Image className={`${styles['portrait-img']} next-img-cover next-img-center`} src='/site/images/home/portrait.jpg' alt='Self Portrait' fill></Image>

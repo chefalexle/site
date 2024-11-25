@@ -15,7 +15,7 @@ export default function Page() {
     return (
         <>
             <section className={`${styles['banner-section']}`}>
-                <Banner url='/images/interviews/dining.webp' alt='Lyon, France'>
+                <Banner url='/site/images/interviews/dining.webp' alt='Lyon, France'>
                     <div className={`banner-container`}>
                         <div className={`title`}>
                             <h1>Interviews</h1>
