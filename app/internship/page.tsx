@@ -86,11 +86,11 @@ const internData = [
         loc: 'Toronto, ON'
     },
     {
-        id:'yokai',
-        imageURL: '/site/images/internship/locations/yokai.png',
-        alt: 'yokai',
-        title: 'Yokai Izakaya',
-        loc: 'Woodbridge, ON'
+        id:'fish',
+        imageURL: '/site/images/internship/locations/fish2.jpg',
+        alt: 'Fishman Lobster Clubhouse, Scarborough, ON',
+        title: 'Fishman Lobster Clubhouse',
+        loc: 'Scarborough, ON'
     },
     {
         id:'edulis',
