@@ -1,0 +1,86 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/components/banner/banner.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+.banner_banner__gE9Di {
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_image__hL_Zx {
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.banner_row__yLtsf {
+    flex-direction: row;
+}
+
+.banner_column___PGin {
+    flex-direction: column;
+}
+
+.banner_bottom-obj-pos__VTLyY {
+    object-position: bottom;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/hire/hire.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.hire_intro__iqrBR {
+    background-color: #222;
+}
+
+.hire_dl-link__Ibu46 {
+    display: flex;
+    margin: 0 auto;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 0.8em 2em;
+    background-color: black;
+}
+
+.hire_dl-link__Ibu46:hover {
+    background-color: #444;
+}
+
+.hire_dl__WiK48 {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.hire_dl__WiK48 h3 {
+    color: white;
+    margin: 0 0.5em 0 0;
+}
+
+.hire_resume-container__mPnSi {
+    margin: 1em auto 0 auto;
+    width: 100%;
+    height: 100vw;
+    max-height: 1200px;
+}
+
+.hire_intro-title__v_BRZ {
+    text-align: center;
+    font-size: 28px;
+    padding: 2em 0 0.5em 0;
+    color: white;
+}
+
+@media only screen and (max-width: 800px) {
+    .hire_resume-container__mPnSi {
+        margin: 0 auto;
+        width: 100%;
+        height: 120vw;
+    }
+}
