@@ -55,7 +55,7 @@
 }
 
 .insta:hover {
-    background-image: url(/images/insta.jpg);
+    background-image: url(/site/images/insta.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     color: white;

@@ -23,7 +23,7 @@ export default function Page() {
                 <Banner url='/images/home/terrace.jpg' alt='Adventure Bay Cottages'>
                     <div className={`${styles['banner-container']}`}>
                         <div className={`${styles['portrait-container']} next-img-container shadow`}>
-                            <Image className={`${styles['portrait-img']} next-img-cover next-img-center`} src='/images/home/portrait.jpg' alt='Self Portrait' fill></Image>
+                            <Image className={`${styles['portrait-img']} next-img-cover next-img-center`} src='/site/images/home/portrait.jpg' alt='Self Portrait' fill></Image>
                         </div>
                         <div className={`${styles['title']}`}>
                             <h1>Alex Le</h1>
@@ -57,7 +57,7 @@ export default function Page() {
                     <div className={`${styles['exp-flex']} flex`}>
 
                         <div className={`${styles['exp-img-container']} next-img-container shadow`}>
-                            <Image className={`${styles['exp-img']} next-img-cover next-img-center`} src='/images/home/totg.webp' alt='totg logo' fill></Image>
+                            <Image className={`${styles['exp-img']} next-img-cover next-img-center`} src='/site/images/home/totg.webp' alt='totg logo' fill></Image>
                         </div>
 
                         <div className={`${styles['exp-text']} flex col`}>
@@ -87,7 +87,7 @@ export default function Page() {
                     <div className={`${styles['exp-flex']} flex`}>
 
                         <div className={`${styles['exp-img-container']} next-img-container shadow`}>
-                            <Image className={`${styles['exp-img']} next-img-cover next-img-center`} src='/images/home/humberlogo.png' alt='humber college logo' fill></Image>
+                            <Image className={`${styles['exp-img']} next-img-cover next-img-center`} src='/site/images/home/humberlogo.png' alt='humber college logo' fill></Image>
                         </div>
 
                         <div className={`${styles['exp-text']} flex col`}>
@@ -112,7 +112,7 @@ export default function Page() {
                     <div className={`${styles['exp-flex']} flex`}>
 
                         <div className={`${styles['exp-img-container']} next-img-container shadow`}>
-                            <Image className={`${styles['exp-img']} next-img-cover next-img-center`} src='/images/home/uottawa.png' alt='humber college logo' fill></Image>
+                            <Image className={`${styles['exp-img']} next-img-cover next-img-center`} src='/site/images/home/uottawa.png' alt='humber college logo' fill></Image>
                         </div>
 
                         <div className={`${styles['exp-text']} flex col`}>
@@ -182,145 +182,3 @@ export default function Page() {
         </>
     );
 }
-
-const servicesInfo = [
-    { 
-        id:'cottages',
-        imageURL: '/images/cottages.JPG',
-        alt: 'ABC Cottages',
-        title: 'Cottages',
-        info: 'Book one of our 20 fully furnished modern cottages',
-        href: '/information/cottages',
-        hrefLabel: 'Learn More'
-    },
-    {
-        id:'fishing',
-        imageURL: '/images/fishing.jpeg',
-        alt: 'Fishing',
-        title: 'Fishing',
-        info: 'Year-round fishing from our spacious docks or boats',
-        href: '/information/fishing',
-        hrefLabel: 'Learn More'
-    },
-    {
-        id:'boats',
-        imageURL: '/images/boats-fog.jpg',
-        alt: 'Boat on the Dock',
-        title: 'Boat Rentals',
-        info: 'Explore Rice Lake at its finest on one of our boats',
-        href: '/information/boats',
-        hrefLabel: 'Learn More'
-    },
-    {
-        id:'facilities',
-        imageURL: '/images/pool.jpeg',
-        alt: 'Pool',
-        title: 'Facilities',
-        info: 'Kayaking, swimming, fishing, something for everyone',
-        href: '/learning/stem',
-        hrefLabel: 'Learn More'
-    }
-];
-
-const galleryProps = {
-    galleryID: 'home-gallery',
-    images: [
-        {
-            thumbnailURL: '/images/cottages-tn.jpg',
-            largeURL: '/images/cottages.JPG',
-            width: 2000,
-            height: 1333
-        },
-        {
-            thumbnailURL: '/images/living-tn.jpg',
-            largeURL: '/images/living.jpg',
-            width: 2000,
-            height: 1125
-        },
-        {
-            thumbnailURL: '/images/garden-tn.jpg',
-            largeURL: '/images/garden.jpg',
-            width: 2000,
-            height: 1500
-        },
-        {
-            thumbnailURL: '/images/beach-tn.jpg',
-            largeURL: '/images/beach.jpg',
-            width: 2000,
-            height: 1125
-        },
-        {
-            thumbnailURL: '/images/dock-tn.jpg',
-            largeURL: '/images/dock.jpg',
-            width: 2000,
-            height: 1125
-        },
-        {
-            thumbnailURL: '/images/dock-guests-tn.jpg',
-            largeURL: '/images/dock-guests.jpg',
-            width: 2000,
-            height: 1125
-        },
-    ]
-}
-
-const testimonials = [
-    {
-        rating: 5,
-        name: 'Hasan Jalal',
-        text: (
-            <p className='testimony'>
-                "Stayed at adventure bay cottage from Friday to Sunday this past weekend. We had an amazing time.
-                <br/><br/>
-                The place was cozy yet not crowded and very clean. Staff was very friendly...
-                <br/><br/>
-                ...Can’t wait to go back."
-            </p>
-        )
-    },
-    {
-        rating: 5,
-        name: 'Mk Pee',
-        text: (
-            <p className='testimony'>
-                "Just came back from a 4 days stay at adventure bay. I highly recommend this place. The staff are very nice and accommodating. Great place for family, friends and couples. The resort is very clean and not crowded and well maintained. In the morning you'll see the staff cleaning around. The price for the cottage is very reasonable and the cottages and well ..."
-            </p>
-        )
-    },
-    {
-        rating: 5,
-        name: 'Joe Mobile Gamer',
-        text: (
-            <p className='testimony'>
-                "Great place. Kid enjoyed time immensely. A lot of things included in price that other places charge you for. Definitely going back again."
-            </p>
-        )
-    },
-    {
-        rating: 5,
-        name: 'Yong Zhou',
-        text: (
-            <p className='testimony'>
-                "Just checked out and left the cottage. It was a great experience for my whole family. My kid loved  the waterfront and lots of activities to do : Kayaking, boating, swimming, BBQ. The staff is very nice guy and very helpful...."
-            </p>
-        )
-    },
-    {
-        rating: 5,
-        name: 'Kay Dee',
-        text: (
-            <p className='testimony'>
-                "One of the best experience I've ever had.. reasonable price, great staff ( Donny you're best ) clean rooms.. great view, great lake and list goes on and on and on.. definitely coming back for sure.."
-            </p>
-        )
-    },
-    {
-        rating: 5,
-        name: 'Steve Eng',
-        text: (
-            <p className='testimony'>
-                "We stayed for 2 nights last week, and it was a great experience for myself and the family. The prices for the stays are very reasonable. Tuee was extremely helpful, and provided excellent service. Each of the cottages come with everything we needed, and also included a bbq with a propane tank, and a fire pit..."
-            </p>
-        )
-    }
-]
